@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1E1C21;
+    height: 80px;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.container{
+    width: 1200px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+
+.container_header{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.logo_header{
+    width: 282px;
+    height: 29,14px;
+    position: absolute;
+    left: 100px;
+    top: 20px;  
+}
+
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 590px;
+}
+
+.menu_header a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+}
+
+.container_banner{
+    position: relative;
+}
+
+.fundo_banner{
+    width: 100%;
+}
+
+.box_conteudo{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pilotos{
+    width: 726,86px;
+    height: 550px;
+    position: relative;
+    right: 100px;
+}
+
+h1{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    position: relative;
+    left: 650px;
+    top: 300px;
+}
+
+.conteudo{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 675px;
+    top: 305px;
+}
+
+.bto_inscreva{
+    position: absolute;
+width: 257px;
+height: 63px;
+left: 750px;
+top: 550px;
+background: #C31616;
+border-radius: 10px;
+color: #FFFFFF;
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-size: 25px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.container_parcerias{
+    position: relative;
+}
+
+.box_parcerias{
+    background-color: black;
+    height: 121px;
+    position: absolute;
+    top: 875px;
+    width: 100%;
+}
+
+.imgs{
+    height: 34px;
+    width: 136px;
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+
+.imgs5{
+    height: 48px;
+    width: 106px;
+    position: relative;
+    left: 450px;
+}
+
+.imgs4{
+    height: 23px;
+    width: 165px;
+    position: relative;
+    left: 330px;
+}
+
+.imgs3{
+    height: 63px;
+    width: 222px;
+    position: relative;
+    top: 15px;
+    left: 250px;
+}
+
+.imgs2{
+    height: 57px;
+    width: 152px;
+    position: relative;
+    top: 15px;
+    left: 200px;
+}
+
+.fundo_participar{
+    width: 100%;
+}
+
+
+.paralelograma{
+
+        position: absolute;
+        top: 1076px;
+        left: 40px;
+        width: 1139px;
+        height: 720px;
+        -webkit-transform: skew(-20deg);
+           -moz-transform: skew(-20deg);
+             -o-transform: skew(-20deg);
+        background: black
+}
+
+.ezreal{
+    position: absolute;
+    top: 1100px;
+    left: 700px;
+  
+    
+}
+
+.titulo2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top:1170px;
+    left: 250px;
+}
+
+.conteudo2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    width: 450px;
+    color: white;
+    position: absolute;
+    top:1250px;
+    left: 240px;
+}
+
+.box_jogos{
+    background-color: black;
+    height: 150px;
+    width: 1310px;
+    position: absolute;
+    top: 1796px;
+    
+}
+
+.ao_vivo{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    width: 60px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+.vs{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    width: 450px;
+    color: white;
+    position: relative;
+    top: -55px;
+    left: 350px;
+}
+
+.sk1{
+    position: relative;
+    top: -20px;
+    left: 280px;
+
+}
+
+.fla1{
+    position: absolute;
+    top: 45px;
+    left: 380px;
+}
+
+.breve{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    width: 60px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 600px;
+}
+
+.sk2{
+    position: absolute;
+    top: 40px;
+    left: 750px;
+}
+
+.vs2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    width: 450px;
+    color: white;
+    position: absolute;
+    top: 60px; 
+    left: 820px;
+}
+
+.fla2{
+    position: absolute;
+    top: 43px;
+    left: 850px;
+}
+
+.sk3{
+    position: absolute;
+    top: 40px;
+    left: 980px;
+}
+
+.vs3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    width: 450px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 1050px; 
+}
+
+.fla3{
+    position: absolute;
+    top: 45px;
+    left:1080px
+}
+
+.background{
+    width: 100%;
+}
+
+.jogo1{
+    position: absolute;
+    top: 2100px;
+    right: 1000px;
+}
+
+.noticias{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    width: 450px;
+    color: white;
+    position: absolute;
+    top: 2050px;
+    left: 110px
+}
+
+.jogo2{
+    position: absolute;
+    top: 2100px;
+    left: 410px;
+}
+
+.jogo3{
+    position: absolute;
+    top: 2100px;
+    left: 710px;
+}
+
+.jogo4{
+    position: absolute;
+    top: 2500px;
+    right: 1000px;
+}
+
+.jogo5{
+    position: absolute;
+    top: 2500px;
+    left: 410px;
+}
+
+.jogo6{
+    position: absolute;
+    top: 2500px;
+    left: 710px;
+}
+
+.prox_jogos{
+    position: absolute;
+    top: 2180px;
+    left: 1000px;
+}
+
+.box_final{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 2865px;
+}
+
+.logo2{
+    width: 282px;
+    height: 29,14px;
+    position: relative;
+    top: 100px;
+    left: 530px;
+}
+
+.sub_link{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 24px;
+    position: relative;
+    left: 110px;
+}
+
+.sub_link2{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: -36px;
+    left: 350px;
+}
+
+.sub1{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 150px;
+    top: -10px;
+}
+
+.sub2{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 26px;
+}
+.sub3{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    left: -26px;
+}
+
+.sub4{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 80px;
+    left: -127px;
+}
+
+.bola1{
+    position: relative;
+    right: 210px;
+}
+
+.bola2{
+   position: relative;
+   top: 28px;
+   right: 238px;
+}
+
+.bola3{
+    position: relative;
+    top: 57px;
+    right: 265px;
+}
+
+.bola4{
+    position: relative;
+    top: 87px;
+    right: 293px;
+}
+
+.sub5{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    position: relative;
+    right: 30px;
+    top: -10px;
+}
+
+.sub6{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    position: relative;
+    right: 66px;
+    top: 19px;
+}
+
+.sub7{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    right: 150px ;
+}
+
+.sub8{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 80px;
+    right: 220px;
+}
+
+.sub9{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 110px;
+    right: 273px;
+}
+
+.bola5{
+    position: relative;
+    right: 400px;
+    top: -3px;
+}
+
+.bola6{
+    position: relative;
+    right: 428px;
+    top: 27px;
+}
+
+.bola7{
+    position: relative;
+    right: 456px;
+    top: 56px;
+}
+
+.bola8{
+    position: relative;
+    right: 483px;
+    top: 88px;
+}
+
+.bola9{
+    position: relative;
+    right: 510px;
+    top: 120px;
+}
+
+.informação{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 2910px;
+    left: 900px;
+}
+
+.email{
+    position: absolute;
+    top: 2950px;
+    left: 900px;
+}
+
+.bto_cadastrar{
+    background: #001F70;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    width: 156px;
+    height: 40px;
+    position: absolute;
+    top: 2952px;
+    left: 1095px;
+}
+
+.informação2{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 23px;
+    position: absolute;
+    top: 3040px;
+    left: 900px;
+}
+
+.insta{
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 3040px;
+    left: 1050px;
+}
+
+.face{
+    width: 48px;
+    height: 51px;
+    position: absolute;
+    top: 3040px;
+    left: 1120px;
+}
+
+.ytb{
+    position: absolute;
+    top: 3043px;
+    left: 1190px;
+}
